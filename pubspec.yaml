@@ -8,7 +8,9 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
-  # path: ^1.8.0
+  intl: ^0.17.0
+  args: any
+  process_run: any
 
 dev_dependencies:
   lints: ^2.0.0
