@@ -9,7 +9,7 @@ void main(List<String> arguments) async {
 
   DateTime now = DateTime.now();
   int weekNum = getWeekNumber(now);
-  String dayOfWeek = getDayofWeek(now);
+  String dayOfWeek = getDayOfWeek(now);
   String timeOfDay = getTimeDay(now);
   String year = getYear(now);
   var type = res['type'];
