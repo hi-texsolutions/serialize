@@ -2,16 +2,14 @@ import 'package:intl/intl.dart';
 
 int getWeekNumber(DateTime date) {
   DateTime firstDayOfYear = DateTime(date.year, 1, 1);
-
   int differenceInDays = date.difference(firstDayOfYear).inDays;
-
   int weekNumber = (differenceInDays / 7).ceil();
 
   return weekNumber;
 }
 
 String getDayOfWeek(DateTime date) {
-  DateFormat formatter = DateFormat('EEEE');
+  DateFormat formatter = DateFormat('E');
   String dayOfWeek = formatter.format(date);
   dayOfWeek = dayOfWeek.substring(0, 2).toUpperCase();
 

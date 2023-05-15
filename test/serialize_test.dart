@@ -5,9 +5,9 @@ import 'package:serialize/serial/serialize.dart';
 void main() {
   group('MyTests', () {
     test('testGetWeekNumber', () {
-      DateTime date = DateTime(2023, 5, 15);
+      DateTime date = DateTime(2023, 5, 16);
       int weekNumber = getWeekNumber(date);
-      expect(weekNumber, 19);
+      expect(weekNumber, 20);
     });
 
     test('testGetDayOfWeek', () {

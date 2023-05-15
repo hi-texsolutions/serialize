@@ -14,7 +14,7 @@ void main(List<String> arguments) async {
   String year = getYear(now);
   var type = res['type'];
   type = type.toString().toUpperCase();
-  print("$dayOfWeek$timeOfDay$weekNum$year$type");
+  print("$dayOfWeek$weekNum$year-$timeOfDay$type");
 
   var shell = Shell();
   await shell.run('echo replace me');
