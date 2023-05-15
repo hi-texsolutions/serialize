@@ -1,4 +1,4 @@
-import 'package:serialize/serialize.dart';
+import 'package:serialize/serial/serialize.dart';
 import 'package:args/args.dart';
 import 'package:process_run/shell.dart';
 

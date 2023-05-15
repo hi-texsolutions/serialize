@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:serialize/serialize.dart';
+import 'package:serialize/serial/serialize.dart';
 
 
 void main() {
