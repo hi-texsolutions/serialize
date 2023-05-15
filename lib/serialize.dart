@@ -10,7 +10,7 @@ int getWeekNumber(DateTime date) {
   return weekNumber;
 }
 
-String getDayofWeek(DateTime date) {
+String getDayOfWeek(DateTime date) {
   DateFormat formatter = DateFormat('EEEE');
   String dayOfWeek = formatter.format(date);
   dayOfWeek = dayOfWeek.substring(0, 2).toUpperCase();
